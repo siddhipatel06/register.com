@@ -1,0 +1,52 @@
+.body
+{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+}
+.header
+{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ width: 280px;
+ color: rgb(15, 15, 15); 
+}
+.header h2
+{
+ float: center;
+ top: 50%;
+ font-size: 45px;
+ border-bottom: 6px solid #fff;
+ margin-bottom: 20px;
+ padding: 13px 0;
+}
+.input-group
+{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 6px 0;
+  margin: 6px 0;
+  border-bottom: 3px solid  #fff;
+}
+
+.input-group input{
+ border-radius: 1px ;
+ background: none;
+ color: black;
+ font-size: 18px;
+ width: 80%;
+ float: left;
+ margin: 0 10px;
+}
+.input-group register
+{
+width: 100%;
+background: none;
+border-radius: 2px solid black;
+color: black;
+padding: 8px;
+font-size: 18px;
+}
